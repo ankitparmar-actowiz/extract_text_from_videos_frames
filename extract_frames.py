@@ -56,7 +56,6 @@ for video in getAllVideos:
 
                 success, image = vidcap.read()
                 count += 1
-
         vidcap.release()
         print(f"Extracted {saved_frame_count} frames from {video} at 1 fps.")
 
